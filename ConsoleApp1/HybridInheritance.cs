@@ -1,48 +1,62 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 
-namespace ConsoleApp1
-{
-    // Parent Class
-    class Bank
-    {
-        public void bankName()
-        {
-            Console.WriteLine("Bank Name: SBI");
-        }
-    }
+//namespace ConsoleApp1
+//{
+//    // Parent Class
+//    class Bank
+//    {
+//        public void bankName()
+//        {
+//            Console.WriteLine("Bank Services");
+//        }
+//    }
 
-    // Child Class
-    class SBI : Bank
-    {
-        public void branch()
-        {
-            Console.WriteLine("Branch: Pune Branch");
-        }
-    }
+//    // Child Class 1
+//    class SBI : Bank
+//    {
+//        public void sbiBranch()
+//        {
+//            Console.WriteLine("SBI Branch: Pune");
+//        }
+//    }
 
-    // Sub Child Class
-    class Account : SBI
-    {
-        public void accountType()
-        {
-            Console.WriteLine("Account Type: Savings Account");
-        }
-    }
+//    // Child Class 2
+//    class HDFC : Bank
+//    {
+//        public void hdfcBranch()
+//        {
+//            Console.WriteLine("HDFC Branch: Mumbai");
+//        }
+//    }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Account obj = new Account();
+//    // Sub Child Class
+//    class Account : SBI
+//    {
+//        public void accountType()
+//        {
+//           Console.WriteLine("Account Type: Savings");
+//        }
+//    }
 
-            obj.bankName();
-            obj.branch();
-            obj.accountType();
-        }
-    }
-}
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Account a = new Account();
+
+//            a.bankName();
+//            a.sbiBranch();
+//            a.accountType();
+
+//            HDFC h = new HDFC();
+
+//            h.bankName();
+//            h.hdfcBranch();
+//        }
+//    }
+//}
