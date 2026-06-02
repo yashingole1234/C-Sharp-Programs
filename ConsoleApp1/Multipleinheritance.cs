@@ -9,15 +9,15 @@
 //    public void mobile();
 //}
 //interface manoj
-//{ 
-//public void laptop();
+//{
+//    public void laptop();
 
 //}
-//class aniket:yash,manoj
+//class aniket : yash, manoj
 //{
 //    public void mobile()
 //    {
-//         Console.WriteLine("Mobile is Samsung");
+//        Console.WriteLine("Mobile is Samsung");
 //    }
 //    public void laptop()
 //    {
@@ -35,3 +35,40 @@
 //    }
 //}
 
+//Task2
+
+//using System;
+
+//interface Payment // Parent
+//{
+//    void Pay();
+//}
+
+//interface Profile // Parent
+//{
+//    void EditProfile();
+//}
+
+//class GooglePay : Payment, Profile // Child
+//{
+//    public void Pay()
+//    {
+//        Console.WriteLine("Payment Done using Google Pay");
+//    }
+
+//    public void EditProfile()
+//    {
+//        Console.WriteLine("Profile Edited Successfully");
+//    }
+//}
+
+//class InterfaceAbstraction
+//{
+//    static void Main()
+//    {
+//        GooglePay g = new GooglePay();
+
+//        g.Pay();
+//        g.EditProfile();
+//    }
+//}
