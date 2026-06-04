@@ -16,11 +16,11 @@
 //    void myfile()
 //    {
 //        string path = "C:\\Users\\ingol\\OneDrive\\Desktop\\writeline.txt";
-//        FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write);
+//        FileStream fs = new FileStream(path, FileMode.Create);
 //        StreamWriter sw = new StreamWriter(fs);
 //        sw.WriteLine("Welcome to C# Programming");
-//        sw.WriteLine("This is a sample text file.");
-      
+//        sw.Write("This is a sample text file.");
+
 //        sw.Close();
 //        fs.Close();
 //        Console.WriteLine("Data written to file successfully.");
